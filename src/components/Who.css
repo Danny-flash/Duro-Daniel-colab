@@ -1,0 +1,143 @@
+
+.who-section{
+    background: var(--grey);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.who-section h2 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.who-section span {
+    color: var(--yellow);
+}
+
+.who-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: var(--white);
+    
+}
+
+.who-right {
+    background: var(--blue);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 var(--dark);
+    margin-left: -100px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+   
+}
+
+.who-right-sub {
+    padding: 80px 20px 80px 20px;
+    line-height: 2;
+}
+
+
+.who-left img {
+    width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 400px;
+}
+
+.second-p {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .who-container{
+        /* flex-direction: column;
+        font-size: 15px; */
+        width: 90%;
+    }  
+
+
+    .who-left img {
+        margin-bottom: -80px;
+        width: 400px;
+        height: 100%;
+    }
+    
+
+    .who-right-sub {
+        padding: 50px 50px 50px 50px;
+        line-height: 2;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .who-container{
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+    }  
+    .second-p {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .who-container{
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+    }  
+
+    .who-right {
+        margin-left: 0;
+        /* margin-top: -100px; */
+    }
+
+    .who-left img {
+        margin-bottom: -80px;
+        width: 350px;
+    }
+
+    .who-right-sub {
+        padding: 30px 20px 20px 20px;
+        line-height: 2;
+    }
+
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .who-container{
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+    }  
+
+    .who-right {
+        margin-left: 0;
+        /* margin-top: -100px; */
+    }
+
+    .who-left img {
+        margin-bottom: -80px;
+        width: 350px;
+    }
+
+    .who-right-sub {
+        padding: 30px 20px 20px 20px;
+        line-height: 2;
+    }
+
+
+
+}

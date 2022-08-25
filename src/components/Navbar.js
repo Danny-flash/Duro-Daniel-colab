@@ -53,7 +53,7 @@ const Navbar = () => {
           showNav && <motion.ul className="mobile-nav"
           initial={{y: "60px", opacity: '0'}}
           animate={{y: 0, opacity: '1'}}
-          
+          onClick={()=> setShowNav(false)}
           >
           <li className="mobile-item">
             <a href=""> Home</a>

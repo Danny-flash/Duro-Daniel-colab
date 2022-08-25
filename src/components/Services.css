@@ -1,0 +1,160 @@
+/* for second picture and texts */
+.service-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container h1{
+    color: var(--grey);
+    font-size: 80px;
+    
+}
+
+.main-service-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.service-left img, .service-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.service-left, .service-right{
+    width: 49%;
+    border-radius: 7px;
+}
+
+.service-right li{
+   line-height: 2.5; 
+   font-size: 15px;
+   color: rgb(54, 53, 53);
+}
+
+.service-left li{
+    line-height: 2.5;
+    font-size: 15px;
+    color: rgb(54, 53, 53);
+}
+
+.service-right span {
+    color: var(--blue);
+}
+
+.service-sec h2{
+    text-align: center;
+    
+}
+
+.service-sec p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    color: rgb(54, 53, 53);
+    font-size: 15px;
+}
+
+.service-sec {
+    padding-top: 50px;
+}
+
+.service-p  {
+    padding-bottom: 50px;
+}
+
+.service-sec h2 {
+    padding-bottom: 10px;
+}
+
+.service-left span {
+    color: var(--blue);
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .service-container{
+        width: 90%;
+    }
+    .service-right li{
+        line-height: 2; 
+     }
+     
+     .service-left li{
+         line-height: 2;
+     }
+     .service-container h1{
+        color: var(--grey);
+        font-size: 50px;
+        
+    }
+    
+}
+@media screen and (max-width: 917px) {
+    .service-container{
+        width: 90%;
+    }
+    .service-right li{
+        line-height: 1.6; 
+        font-size: 13px;
+     }
+     
+     .service-left li{
+         line-height: 1.6;
+         font-size: 13px;
+     }
+    
+}
+@media screen and (max-width: 700px) {
+    .service-container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .service-right li{
+        line-height: 2; 
+        font-size: 13px;
+        width: 90%;
+         margin: auto;
+     }
+     
+     .service-left li{
+         line-height: 2;
+         font-size: 13px;
+         width: 90%;
+         margin: auto;
+     }
+     .service-left, .service-right{
+        width: 96%;
+        border-radius: 7px;
+    }
+
+    .service-left img{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .service-container h1{
+        color: var(--grey);
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    .service-container h3{
+        width: 90%;
+        margin: auto;
+    }
+    .even{
+        flex-direction: column-reverse;
+    }
+   
+    
+}

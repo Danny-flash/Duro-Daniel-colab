@@ -9,6 +9,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding-bottom: 50px;
+    
   }
 
 .navbar-container{
@@ -192,7 +194,9 @@
         color: black;
     }
 
-   
+    /* .hero-container{
+        text-align: center;
+    } */
      
 
 }

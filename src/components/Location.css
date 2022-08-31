@@ -1,0 +1,139 @@
+.location-sec {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;;
+}
+
+
+.divo2 {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.hero-icon2 {
+    margin-right: 10px;
+    margin-left: 50px;
+    
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    height: 55vh;
+}
+
+.location-right {
+    background: var(--dark);
+    width: 50%;
+    height: 55vh;
+}
+
+.location-left {
+    width: 50%;
+}
+
+.location-left img {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.lrs h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lrs h4 {
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+@media screen and (max-width:1024px) {
+    .location-container{
+        flex-direction: column;
+    }  
+
+    .location-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        height: 100vh;
+    }
+    
+    .location-right {
+        background: var(--dark);
+        width: 100%;
+        height: auto;
+        margin-top: -4px;
+    }
+    
+    .location-left {
+        width: 100%;
+    }
+    
+    .location-left img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .divo2 {
+        margin-bottom: 55px;
+        font-size: 20px;
+    } 
+
+    .lrs h4 {
+        font-size: 22px;
+        margin-top: 15px;
+        line-height: 2;
+    }
+
+    .lrs h2 {
+        font-size: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width:820px) {
+    .divo2 {
+        margin-bottom: 55px;
+        font-size:19px;
+    } 
+
+    .lrs h4 {
+        font-size: 20px;
+        margin-top: 15px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .divo2 {
+        margin-bottom: 35px;
+    } 
+}
+
+@media screen and (max-width:600px) {
+    .lrs h4 {
+        font-size: 17px;
+        width: 90%;
+        margin: auto;
+    }
+    .divo2{
+        font-size: 16px;
+    }
+    .location-right{
+        margin-top: -4px;
+    }
+}

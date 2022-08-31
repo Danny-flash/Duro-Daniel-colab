@@ -6,6 +6,7 @@ import { FaCheckCircle, FaWifi, FaBars, FaTimes } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
 
+
 const Navbar = () => {
 
   const [showNav, setShowNav] = useState(false)
@@ -25,14 +26,14 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               {" "}
-              <a href="">Services</a>
+              <a href="#services">Services</a>
             </li>
             <NavLink className="nav-item" to="/aboutpage">
               About us
             </NavLink>
             <li className="nav-item">
               {" "}
-              <a href="">Career</a>
+              <a href="#career">Career</a>
             </li>
             <NavLink className="nav-item" to="/blogpage">
               Blog

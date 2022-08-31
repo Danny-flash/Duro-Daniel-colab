@@ -1,0 +1,169 @@
+.contact{
+    background: var(--dark);
+    margin-top: 15%;
+}
+
+.contact-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.contact-left{
+    background: rgb(27, 27, 255);
+    bottom: 0;
+    width: 40%;
+    position: absolute;
+}
+form{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-name{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.contact label{
+    width: 100%;
+    margin: 10px 0;
+}
+.contact input, .contact textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 7px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.contact textarea{
+    padding: 20px 7px;
+}
+
+.contact-right{
+    padding: 20px;
+    padding-right: 0px;
+    width: 60%;
+    margin-left: auto;
+    border-radius: 7px;
+}
+
+
+.contact-right header{
+   font-size: 29px;
+   word-spacing: 2px;
+   margin-bottom: 12px;
+}
+
+.contact-right p{
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.contact-icon{
+  display: flex;
+  align-items: center;
+}
+
+.c-icon{
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.con-icon-right a:hover{
+    color: var(--yellow);
+    transition: .5s all ease;
+}
+
+.con-icon-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: 3%;
+}
+.con-icon-right a{
+    justify-content: flex-end;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.sub{
+    background: var(--yellow);
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    outline: none;
+    border: 1px solid var(--yellow);
+    transition: .5s all ease;
+    padding: 9px 0;
+    margin-bottom: 15px;
+}
+
+.sub:hover{
+    background: white;
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 1400px) {
+    .contact-left{
+        width: 45%;
+    }
+    .contact-right{
+        width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .contact{
+        margin-top: 20%;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    
+    .contact-left{
+        width: 45%;
+    }
+    .contact-right{
+        width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .contact-container{
+        width: 100%;
+        position: initial;
+        flex-direction: column;
+    }
+    .contact-left{
+        background: rgb(27, 27, 255);
+        width: 100%;
+        position: initial;
+    }
+    .contact-right{
+        width: 100%;
+        padding: 20px 0px;
+        width: 90%;
+        margin: auto;
+
+    }
+    
+}

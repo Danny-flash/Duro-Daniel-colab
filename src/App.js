@@ -1,19 +1,23 @@
 import React from 'react'
-import Navbar from './components/Navbar';
+
 import './index.css';
+
 import { Routes, Route } from "react-router-dom";
 import About from './components/About';
 import Blog from './components/Blog';
-import Who from './components/Who';
-import Services from './components/Services';
+// import Who from './components/Who';
+// import Services from './components/Services';
+// import Location from './components/Location';
+// import Career from './components/Career';
+import Home from './components/Home';
+
 const App = () => {
   return (
     <div>
       
-      <Navbar/>
-      <Who/>
-      <Services/>
+      
       <Routes>
+        <Route path='/' element = {<Home/>}/>
         <Route path = 'aboutpage' element= {<About/>}/>
         <Route path = 'blogpage' element= {<Blog/>}/>
       </Routes>
